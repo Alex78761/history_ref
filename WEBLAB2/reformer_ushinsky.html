@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Константин Ушинский | История реформаторов России</title>
+    <link rel="stylesheet" href="reformer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Ссылка на CSS конкретной версии (Образовательная) -->
+    <link id="version-stylesheet" href="version4.css" data-version="4"> 
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <h1 class="site-title">История реформаторов России</h1>
+            <div class="header-actions">
+                <!-- Кнопка версии будет настроена JS -->
+                <button class="btn btn-version">Образовательная</button> 
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="reformer-profile">
+            <div class="profile-image-container">
+                <img src="images/reformer_ushinski.jpg" alt="Константин Ушинский" class="profile-img">
+            </div>
+            <div class="profile-info">
+                <h2 class="reformer-name">Константин Дмитриевич Ушинский</h2>
+                <p class="year">1824-1870</p> 
+                <div class="action-buttons">
+                     <!-- Кнопка ведет на страницу версии с фокусом на реформаторе ID 25 -->
+                    <a href="version4.html?focus=25" class="btn btn-timeline">Вернуться на таймлайн</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="biography-section">
+            <h3 class="section-title">Биография</h3>
+            <div class="biography-content">
+                <p>Константин Дмитриевич Ушинский - выдающийся русский педагог, основоположник научной педагогики в России, которого по праву называют "отцом русской педагогики".</p>
+                <p>Родился в семье мелкопоместного дворянина в Тульской губернии. Получил образование в Новгород-Северской гимназии и на юридическом факультете Московского университета. В 1846 году начал преподавательскую деятельность в Ярославском юридическом лицее, где проявил себя как талантливый педагог и реформатор.</p>
+                <p>В 1854 году переехал в Петербург, где работал в Гатчинском сиротском институте, а затем в Смольном институте благородных девиц. В период с 1859 по 1862 годы был инспектором классов Смольного института, где провел значительные реформы учебного процесса, ставшие образцом для других женских учебных заведений России.</p>
+                <p>В 1862 году из-за прогрессивных взглядов был отстранен от работы и вынужден покинуть Россию. За границей изучал опыт европейских педагогических систем и работал над своими фундаментальными трудами. Вернулся в Россию в 1867 году, но из-за тяжелой болезни уже не мог вернуться к активной педагогической деятельности.</p>
+            </div>
+        </section>
+
+        <section class="achievements-section">
+            <h3 class="section-title">Основные достижения</h3>
+            <ul class="achievements-list">
+                <li>Создание фундаментального труда "Человек как предмет воспитания. Опыт педагогической антропологии" (1868-1869), заложившего научные основы педагогики в России</li>
+                <li>Разработка нового метода обучения грамоте - аналитико-синтетического метода, изложенного в учебнике "Родное слово" (1864)</li>
+                <li>Создание системы подготовки народных учителей в России</li>
+                <li>Реформирование учебного процесса в Смольном институте благородных девиц, введение преподавания на русском языке, расширение программы естественных наук</li>
+                <li>Разработка принципа народности в воспитании, подчеркивающего необходимость учета национальных особенностей при построении системы образования</li>
+                <li>Создание системы классно-урочного обучения, ставшей основой российской школы</li>
+                <li>Идея всеобщего начального образования и создание единой системы образования, доступной для всех сословий</li>
+            </ul>
+        </section>
+
+        <section class="related-reformers">
+            <h3 class="section-title">Связанные исторические личности</h3>
+            <div class="related-reformers-grid">
+                <!-- Ссылки на страницы связанных реформаторов -->
+                <a href="reformer_pirogov.html" class="related-reformer-card">
+                    <img src="images/reformer_pirogov.jpg" alt="Николай Пирогов" class="related-reformer-img">
+                    <div class="related-reformer-info">
+                        <h3 class="related-reformer-name">Николай Пирогов</h3>
+                        <p class="related-reformer-years">1810-1881</p>
+                    </div>
+                </a>
+                <a href="reformer_lunacharsky.html" class="related-reformer-card">
+                    <img src="images/reformer_lunacharsky.jpg" alt="Анатолий Луначарский" class="related-reformer-img">
+                    <div class="related-reformer-info">
+                        <h3 class="related-reformer-name">Анатолий Луначарский</h3>
+                        <p class="related-reformer-years">1875-1933</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2023 История реформаторов России. Все права защищены.</p>
+            <p>Проект создан в учебных целях</p>
+        </div>
+    </footer>
+
+    <!-- Подключаем JS в конце -->
+    <script src="reformer.js"></script> 
+</body>
+</html> 

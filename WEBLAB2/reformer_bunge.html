@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Николай Бунге | История реформаторов России</title>
+    <link rel="stylesheet" href="reformer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Ссылка на CSS конкретной версии (Экономическая) -->
+    <link id="version-stylesheet" href="styles.css" data-version="1"> 
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <h1 class="site-title">История реформаторов России</h1>
+            <div class="header-actions">
+                <!-- Кнопка версии будет настроена JS -->
+                <button class="btn btn-version">Экономическая</button> 
+                 <!-- Кнопка На главную ведет на страницу версии -->
+                <a href="index.html" class="btn btn-home">На главную</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="reformer-profile">
+            <div class="profile-image-container">
+                <img src="images/refromer_bunge.jpg" alt="Николай Бунге" class="profile-img">
+            </div>
+            <div class="profile-info">
+                <h2 class="reformer-name">Николай Бунге</h2>
+                <p class="year">1823-1895</p> 
+                <div class="action-buttons">
+                     <!-- Кнопка ведет на страницу версии с фокусом на реформаторе ID 2 -->
+                    <a href="index.html?focus=2" class="btn btn-timeline">Вернуться на таймлайн</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="biography-section">
+            <h3 class="section-title">Биография</h3>
+            <div class="biography-content">
+                <p>Николай Христианович Бунге (1823–1895) — российский экономист, профессор Киевского университета, министр финансов (1881–1886) и председатель Комитета министров. Бунге выступал за умеренные, постепенные реформы и социальную поддержку малоимущих слоёв населения, был сторонником активной роли государства в экономике.</p>
+                <p>Внёс вклад в развитие российской экономики, способствовал развитию частной собственности и индивидуального предпринимательства. Кроме того, реформировал фабричное промышленное производство и создал трудовой кодекс, который защищал рабочих фабрик и облегчал условия их труда.</p>
+                <p>Бунге также был выдающимся учёным и педагогом, его экономические труды внесли значительный вклад в развитие экономической науки в России.</p>
+            </div>
+        </section>
+
+        <section class="achievements-section">
+            <h3 class="section-title">Основные достижения</h3>
+            <ul class="achievements-list">
+                <li>Работа профессором-экономистом, чтение лекций, защита проектов, например, «О теории кредита» (1845–1890)</li>
+                <li>Ликвидация подушного налога (1882)</li>
+                <li>Ввел льготные кредиты для крестьян через Крестьянский поземельный банк (1882)</li>
+                <li>Введение налога на доход от денежных капиталов, налога на прибыль, пошлины на безвозмездно переходящее имущество (1885)</li>
+                <li>Учредил журнал «Вестник финансов, промышленности и торговли» (1885)</li>
+            </ul>
+        </section>
+
+        <section class="related-reformers">
+            <h3 class="section-title">Связанные исторические личности</h3>
+            <div class="related-reformers-grid">
+                <!-- Ссылки на страницы связанных реформаторов из index.html -->
+                <a href="reformer_kankrin.html" class="related-reformer-card">
+                    <img src="images/reformer_kankrin.jpg" alt="Егор Канкрин" class="related-reformer-img">
+                    <div class="related-reformer-info">
+                        <h3 class="related-reformer-name">Егор Канкрин</h3>
+                        <p class="related-reformer-years">1774-1845</p>
+                    </div>
+                </a>
+                <a href="reformer_witte.html" class="related-reformer-card">
+                    <img src="images/reformer_vitte.jpg" alt="Сергей Витте" class="related-reformer-img">
+                    <div class="related-reformer-info">
+                        <h3 class="related-reformer-name">Сергей Витте</h3>
+                        <p class="related-reformer-years">1849-1915</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2023 История реформаторов России. Все права защищены.</p>
+            <p>Проект создан в учебных целях</p>
+        </div>
+    </footer>
+
+    <!-- Подключаем JS в конце -->
+    <script src="reformer.js"></script> 
+</body>
+</html> 

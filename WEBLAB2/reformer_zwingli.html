@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ульрих Цвингли | История реформаторов</title>
+    <link rel="stylesheet" href="reformer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Ссылка на CSS конкретной версии (Экономическая) -->
+    <link id="version-stylesheet" href="styles.css" data-version="1"> 
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <h1 class="site-title">История реформаторов</h1>
+            <div class="header-actions">
+                <!-- Кнопка версии будет настроена JS -->
+                <button class="btn btn-version">Экономическая</button> 
+                 <!-- Кнопка На главную ведет на страницу версии -->
+                <a href="index.html" class="btn btn-home">На главную</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="reformer-profile">
+            <div class="profile-image-container">
+                <img src="images/zwingli.jpg" alt="Ульрих Цвингли" class="profile-img">
+            </div>
+            <div class="profile-info">
+                <h2 class="reformer-name">Ульрих Цвингли</h2>
+                <p class="year">1484–1531</p>
+                <div class="action-buttons">
+                     <!-- Кнопка ведет на страницу версии с фокусом на реформаторе ID 3 -->
+                    <a href="index.html?focus=3" class="btn btn-timeline">Вернуться на таймлайн</a>
+                    <button class="btn btn-share">Поделиться <i class="fas fa-share-alt"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="biography-section">
+            <h3 class="section-title">Биография</h3>
+            <div class="biography-content">
+                <p>Ульрих Цвингли (1484-1531) — швейцарский богослов и гуманист, один из лидеров Реформации в Швейцарии. Основатель цвинглианства, предшественника реформатских церквей.</p>
+                <p>В отличие от Лютера, Цвингли более радикально подходил к реформе церкви, требуя полного отказа от католических обрядов и традиций. Его деятельность привела к реформации в Цюрихе, где он был проповедником в Гроссмюнстере.</p>
+                <p>Экономические идеи Цвингли включали критику системы наемничества, которая была важным источником дохода для Швейцарии, и призыв к созданию нового экономического порядка, основанного на справедливости и честном труде. Он также выступал против церковной десятины и системы индульгенций.</p>
+            </div>
+        </section>
+
+        <section class="achievements-section">
+            <h3 class="section-title">Основные достижения</h3>
+            <ul class="achievements-list">
+                <li>Реформация в Цюрихе (1522)</li>
+                <li>67 тезисов (1523)</li>
+                <li>Комментарии к истинной и ложной религии (1525)</li>
+                <li>Реформа церковного управления в Цюрихе</li>
+                <li>Борьба против системы наемничества и церковной десятины</li>
+            </ul>
+        </section>
+
+        <section class="related-reformers">
+            <h3 class="section-title">Связанные исторические личности</h3>
+            <div class="related-reformers-grid">
+                <a href="reformer_luther.html" class="related-reformer-card">
+                    <img src="images/luther.jpg" alt="Мартин Лютер" class="related-reformer-img">
+                    <div class="related-reformer-info">
+                        <h3 class="related-reformer-name">Мартин Лютер</h3>
+                        <p class="related-reformer-years">1483-1546</p>
+                    </div>
+                </a>
+                <a href="reformer_calvin.html" class="related-reformer-card">
+                    <img src="images/calvin.jpg" alt="Жан Кальвин" class="related-reformer-img">
+                    <div class="related-reformer-info">
+                        <h3 class="related-reformer-name">Жан Кальвин</h3>
+                        <p class="related-reformer-years">1509-1564</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2023 История реформаторов. Все права защищены.</p>
+            <p>Проект создан в учебных целях</p>
+        </div>
+    </footer>
+
+    <!-- Подключаем JS в конце -->
+    <script src="reformer.js"></script> 
+</body>
+</html> 

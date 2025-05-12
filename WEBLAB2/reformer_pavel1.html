@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Павел I | История реформаторов России</title>
+    <link rel="stylesheet" href="reformer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Ссылка на CSS конкретной версии (Военная) -->
+    <link id="version-stylesheet" href="version2.css" data-version="2"> 
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <h1 class="site-title">История реформаторов России</h1>
+            <div class="header-actions">
+                <!-- Кнопка версии будет настроена JS -->
+                <button class="btn btn-version">Военная</button> 
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="reformer-profile">
+            <div class="profile-image-container">
+                <img src="images/reformer_pavel1.jpg" alt="Павел I" class="profile-img">
+            </div>
+            <div class="profile-info">
+                <h2 class="reformer-name">Павел I</h2>
+                <p class="year">1754-1801</p> 
+                <div class="action-buttons">
+                     <!-- Кнопка ведет на страницу версии с фокусом на реформаторе ID 103 -->
+                    <a href="version2.html?focus=103" class="btn btn-timeline">Вернуться на таймлайн</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="biography-section">
+            <h3 class="section-title">Биография</h3>
+            <div class="biography-content">
+                <p>Сын Екатерины II и Петра III, Павел взошёл на престол в 1796 году, ненавидя мать за убийство отца. Увлекаясь прусской военной системой, ввёл муштру и новые уставы (1796), запретив дворянам уклоняться от службы.</p>
+                <p>Создал военные поселения (1797), где солдаты совмещали службу с сельским хозяйством. Ограничил власть офицеров-дворян, что вызвало заговор.</p>
+                <p>Убит в Михайловском замке в 1801 году. Его реформы, хотя и непопулярные, повлияли на армию Александра I.</p>
+            </div>
+        </section>
+
+        <section class="achievements-section">
+            <h3 class="section-title">Основные достижения</h3>
+            <ul class="achievements-list">
+                <li>Прусские военные уставы (1796) — внедрение новой системы военной организации и дисциплины по прусскому образцу</li>
+                <li>Военные поселения (1797, проект) — создание системы, где солдаты совмещали военную службу с сельским хозяйством</li>
+            </ul>
+        </section>
+
+        <section class="related-reformers">
+            <h3 class="section-title">Связанные исторические личности</h3>
+            <div class="related-reformers-grid">
+                <!-- Ссылки на страницы связанных реформаторов из военной ветки -->
+                <a href="reformer_peter1_military.html" class="related-reformer-card">
+                    <img src="images/reformer_petr1.jpg" alt="Пётр I Великий" class="related-reformer-img">
+                    <div class="related-reformer-info">
+                        <h3 class="related-reformer-name">Пётр I Великий</h3>
+                        <p class="related-reformer-years">1672-1725</p>
+                    </div>
+                </a>
+                <a href="reformer_milutin.html" class="related-reformer-card">
+                    <img src="images/reformer_milutin.jpg" alt="Дмитрий Милютин" class="related-reformer-img">
+                    <div class="related-reformer-info">
+                        <h3 class="related-reformer-name">Дмитрий Милютин</h3>
+                        <p class="related-reformer-years">1816-1912</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2023 История реформаторов России. Все права защищены.</p>
+            <p>Проект создан в учебных целях</p>
+        </div>
+    </footer>
+
+    <!-- Подключаем JS в конце -->
+    <script src="reformer.js"></script> 
+</body>
+</html> 
