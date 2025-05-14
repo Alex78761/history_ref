@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Егор Канкрин | История реформаторов России</title>
+    <link rel="stylesheet" href="reformer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Ссылка на CSS конкретной версии (Экономическая) -->
+    <link id="version-stylesheet" href="styles.css" data-version="1"> 
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <h1 class="site-title">История реформаторов России</h1>
+            <div class="header-actions">
+                <!-- Кнопка версии будет настроена JS -->
+                <button class="btn btn-version">Экономическая</button> 
+                 <!-- Кнопка На главную ведет на страницу версии -->
+                <a href="index.html" class="btn btn-home">На главную</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="reformer-profile">
+            <div class="profile-image-container">
+                <img src="images/reformer_kankrin.jpg" alt="Егор Канкрин" class="profile-img">
+            </div>
+            <div class="profile-info">
+                <h2 class="reformer-name">Егор Канкрин</h2>
+                <p class="year">1774-1845</p> 
+                <div class="action-buttons">
+                     <!-- Кнопка ведет на страницу версии с фокусом на реформаторе ID 1 -->
+                    <a href="index.html?focus=1" class="btn btn-timeline">Вернуться на таймлайн</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="biography-section">
+            <h3 class="section-title">Биография</h3>
+            <div class="biography-content">
+                <p>Егор Францевич Канкрин (1774–1845) — русский государственный деятель немецкого происхождения. С 1797 года был на русской службе в чине надворного советника. В 1821 году был назначен членом Государственного совета, а в 1823 году — министром финансов, где и стал работать над экономическими реформами.</p>
+                <p>Являясь сторонником государственной поддержки промышленности, Канкрин значительно упростил порядок открытия новых предприятий, способствовал развитию горного и лесного дела, овцеводства, реорганизовал и улучшил систему подготовки инженерных кадров.</p>
+                <p>Главным достижением Канкрина считается денежная реформа 1839-1843 годов, которая стабилизировала российскую финансовую систему и укрепила курс рубля на международной арене.</p>
+            </div>
+        </section>
+
+        <section class="achievements-section">
+            <h3 class="section-title">Основные достижения</h3>
+            <ul class="achievements-list">
+                <li>Устав о векселях (1832)</li>
+                <li>Денежная реформа (1839–1843)</li>
+                <li>Первый этап — манифест «Об устройстве денежной системы» (1839–1841)</li>
+                <li>Второй этап — манифест «О выпуске в обращение кредитных билетов» (1841)</li>
+                <li>Третий этап — манифест «О замене ассигнаций и других денежных представительств» (1843)</li>
+            </ul>
+        </section>
+
+        <section class="related-reformers">
+            <h3 class="section-title">Связанные исторические личности</h3>
+            <div class="related-reformers-grid">
+                <!-- Ссылки на страницы связанных реформаторов из index.html -->
+                <a href="reformer_bunge.html" class="related-reformer-card">
+                    <img src="images/bunge.jpg" alt="Николай Бунге" class="related-reformer-img">
+                    <div class="related-reformer-info">
+                        <h3 class="related-reformer-name">Николай Бунге</h3>
+                        <p class="related-reformer-years">1823-1895</p>
+                    </div>
+                </a>
+                <a href="reformer_witte.html" class="related-reformer-card">
+                    <img src="images/witte.jpg" alt="Сергей Витте" class="related-reformer-img">
+                    <div class="related-reformer-info">
+                        <h3 class="related-reformer-name">Сергей Витте</h3>
+                        <p class="related-reformer-years">1849-1915</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2023 История реформаторов России. Все права защищены.</p>
+            <p>Проект создан в учебных целях</p>
+        </div>
+    </footer>
+
+    <!-- Подключаем JS в конце -->
+    <script src="reformer.js"></script> 
+</body>
+</html> 

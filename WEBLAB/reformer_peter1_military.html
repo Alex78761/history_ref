@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Военные реформы Петра I | История реформаторов России</title>
+    <link id="version-stylesheet" rel="stylesheet" href="styles.css" data-version="1">
+    <link rel="stylesheet" href="reformer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Ссылка на CSS конкретной версии (Военная) -->
+    <link id="version-stylesheet" href="version2.css" data-version="2"> 
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <h1 class="site-title">История реформаторов России</h1>
+            <div class="header-actions">
+                <!-- Кнопка версии будет настроена JS -->
+                <button class="btn btn-version">Военная</button> 
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="reformer-profile">
+            <div class="profile-image-container">
+                <img src="images/reformer_petr1.jpg" alt="Пётр I Великий" class="profile-img">
+            </div>
+            <div class="profile-info">
+                <h2 class="reformer-name">Пётр I Великий</h2>
+                <p class="year">1672-1725</p> 
+                <div class="action-buttons">
+                     <!-- Кнопка ведет на страницу версии с фокусом на реформаторе ID 102 -->
+                    <a href="version2.html?focus=102" class="btn btn-timeline">Вернуться на таймлайн</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="biography-section">
+            <h3 class="section-title">Биография</h3>
+            <div class="biography-content">
+                <p>Пётр Алексеевич Романов взошёл на престол в 1689 году, но с юности увлекался военным делом, создавая «потешные полки». После поражения под Нарвой (1700) начал радикальные реформы: ввёл рекрутскую повинность (1705), сделав армию постоянной и профессиональной.</p>
+                <p>Лично изучал кораблестроение в Европе (1697–1698) и основал Балтийский флот, который разгромил шведов при Гангуте (1714). Открыл первые военные школы: Навигацкую (1701) и Артиллерийскую (1701).</p>
+                <p>В 1722 году утвердил Табель о рангах, унифицировав карьерные пути военных и чиновников. Погиб, спасая рыбаков от шторма, в 1725 году, превратив Россию в империю и морскую державу.</p>
+            </div>
+        </section>
+
+        <section class="achievements-section">
+            <h3 class="section-title">Основные достижения</h3>
+            <ul class="achievements-list">
+                <li>Рекрутская повинность (1705) — создание системы комплектования регулярной армии, просуществовавшей до 1874 года</li>
+                <li>Создание Балтийского флота (1703–1721) — превращение России в морскую державу, обеспечившее победу в Северной войне</li>
+                <li>Табель о рангах (1722) — унификация военной и гражданской службы, создание системы чинов и званий</li>
+            </ul>
+        </section>
+
+        <section class="related-reformers">
+            <h3 class="section-title">Связанные исторические личности</h3>
+            <div class="related-reformers-grid">
+                <!-- Ссылки на страницы связанных реформаторов из военной ветки -->
+                <a href="reformer_ivan4_military.html" class="related-reformer-card">
+                    <img src="images/reformer_ivan4.jpeg" alt="Иван IV Грозный" class="related-reformer-img">
+                    <div class="related-reformer-info">
+                        <h3 class="related-reformer-name">Иван IV Грозный</h3>
+                        <p class="related-reformer-years">1530-1584</p>
+                    </div>
+                </a>
+                <a href="reformer_pavel1.html" class="related-reformer-card">
+                    <img src="images/reformer_pavel1.jpg" alt="Павел I" class="related-reformer-img">
+                    <div class="related-reformer-info">
+                        <h3 class="related-reformer-name">Павел I</h3>
+                        <p class="related-reformer-years">1754-1801</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2023 История реформаторов России. Все права защищены.</p>
+            <p>Проект создан в учебных целях</p>
+        </div>
+    </footer>
+
+    <!-- Подключаем JS в конце -->
+    <script src="reformer.js"></script> 
+</body>
+</html> 
