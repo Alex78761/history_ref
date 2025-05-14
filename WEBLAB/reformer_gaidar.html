@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Егор Гайдар | История реформаторов России</title>
+    <link rel="stylesheet" href="reformer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Ссылка на CSS конкретной версии (Экономическая) -->
+    <link id="version-stylesheet" href="styles.css" data-version="1"> 
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <h1 class="site-title">История реформаторов России</h1>
+            <div class="header-actions">
+                <!-- Кнопка версии будет настроена JS -->
+                <button class="btn btn-version">Экономическая</button> 
+                 <!-- Кнопка На главную ведет на страницу версии -->
+                <a href="index.html" class="btn btn-home">На главную</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="reformer-profile">
+            <div class="profile-image-container">
+                <img src="images/reformer_gaydar.jpg" alt="Егор Гайдар" class="profile-img">
+            </div>
+            <div class="profile-info">
+                <h2 class="reformer-name">Егор Гайдар</h2>
+                <p class="year">1956-2009</p> 
+                <div class="action-buttons">
+                     <!-- Кнопка ведет на страницу версии с фокусом на реформаторе ID 5 -->
+                    <a href="index.html?focus=5" class="btn btn-timeline">Вернуться на таймлайн</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="biography-section">
+            <h3 class="section-title">Биография</h3>
+            <div class="biography-content">
+                <p>Егор Тимурович Гайдар (1956–2009) — российский экономист, политик и реформатор. Один из основных руководителей и идеологов экономических реформ начала 1990-х годов в России. В 1991—1994 годах занимал ответственные посты в правительстве России, в том числе в течение полугода был исполняющим обязанности председателя правительства.</p>
+                <p>Принимал участие в подготовке Беловежского соглашения. Под руководством Гайдара начался переход от плановой к рыночной экономике, были проведены либерализация цен, реорганизация налоговой системы, либерализация внешней торговли, начата приватизация.</p>
+                <p>Отношение к Гайдару и его реформам противоречиво. Сторонники Гайдара считают, что его реформы в 1992 году предотвратили массовый голод и гражданскую войну, создали основы для будущего роста экономики. Оппоненты Гайдара обвиняют его в различных отрицательных последствиях реформ от падения уровня жизни до сознательного разрушения экономики.</p>
+            </div>
+        </section>
+
+        <section class="achievements-section">
+            <h3 class="section-title">Основные достижения</h3>
+            <ul class="achievements-list">
+                <li>Шоковая терапия» (1992–1998)</li>
+                <li>Приватизация государственной собственности (1992)</li>
+                <li>Проект новой налоговой системы (1992)</li>
+                <li>Создал Институт Экономической политики (1993)</li>
+                <li>Либерализация цен и внешней торговли (1992)</li>
+            </ul>
+        </section>
+
+        <section class="related-reformers">
+            <h3 class="section-title">Связанные исторические личности</h3>
+            <div class="related-reformers-grid">
+                <!-- Ссылки на страницы связанных реформаторов из index.html -->
+                <a href="reformer_kosygin.html" class="related-reformer-card">
+                    <img src="images/reformer_kosigin.jpg" alt="Алексей Косыгин" class="related-reformer-img">
+                    <div class="related-reformer-info">
+                        <h3 class="related-reformer-name">Алексей Косыгин</h3>
+                        <p class="related-reformer-years">1904-1980</p>
+                    </div>
+                </a>
+                <a href="reformer_witte.html" class="related-reformer-card">
+                    <img src="images/witte.jpg" alt="Сергей Витте" class="related-reformer-img">
+                    <div class="related-reformer-info">
+                        <h3 class="related-reformer-name">Сергей Витте</h3>
+                        <p class="related-reformer-years">1849-1915</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2023 История реформаторов России. Все права защищены.</p>
+            <p>Проект создан в учебных целях</p>
+        </div>
+    </footer>
+
+    <!-- Подключаем JS в конце -->
+    <script src="reformer.js"></script> 
+</body>
+</html> 

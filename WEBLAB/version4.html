@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>История реформаторов - Образовательная</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="version4.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Экономическая</a></li>
+                <li><a href="version2.html">Военная</a></li>
+                <li><a href="version3.html">Законодательная</a></li>
+                <li><a href="version4.html" class="active">Образовательная</a></li>
+                <li><a href="version5.html">Социальная</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="timeline-container">
+            <button class="nav-btn prev" id="prevBtn">←</button>
+            <div class="timeline" id="timeline">
+                <!-- Кружочки с реформаторами будут добавлены через JavaScript -->
+            </div>
+            <button class="nav-btn next" id="nextBtn">→</button>
+        </div>
+    </main>
+    
+    <footer class="timeline-controls">
+        <div class="time-scale">
+            <span id="startDate">1500</span>
+            <span id="endDate">2000</span>
+        </div>
+        <div class="zoom-controls">
+            <button id="zoomIn">+</button>
+            <button id="zoomOut">-</button>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

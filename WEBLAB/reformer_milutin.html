@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дмитрий Милютин | История реформаторов России</title>
+    <link rel="stylesheet" href="reformer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Ссылка на CSS конкретной версии (Военная) -->
+    <link id="version-stylesheet" href="version2.css" data-version="2"> 
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <h1 class="site-title">История реформаторов России</h1>
+            <div class="header-actions">
+                <!-- Кнопка версии будет настроена JS -->
+                <button class="btn btn-version">Военная</button> 
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="reformer-profile">
+            <div class="profile-image-container">
+                <img src="images/reformer_milutin.jpg" alt="Дмитрий Милютин" class="profile-img">
+            </div>
+            <div class="profile-info">
+                <h2 class="reformer-name">Дмитрий Милютин</h2>
+                <p class="year">1816-1912</p> 
+                <div class="action-buttons">
+                     <!-- Кнопка ведет на страницу версии с фокусом на реформаторе ID 104 -->
+                    <a href="version2.html?focus=104" class="btn btn-timeline">Вернуться на таймлайн</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="biography-section">
+            <h3 class="section-title">Биография</h3>
+            <div class="biography-content">
+                <p>Выпускник Николаевской военной академии, Милютин стал военным министром в 1861 году. Участвовал в Кавказской войне и Крымской катастрофе, что подтолкнуло его к реформам.</p>
+                <p>В 1874 году заменил рекрутчину всеобщей воинской повинностью, сократив срок службы с 25 до 6 лет. Разделил страну на 15 военных округов (1864) для оперативного управления. Ввёл винтовки Бердана и железные дороги для мобилизации.</p>
+                <p>Ушёл в отставку после убийства Александра II (1881), но его система просуществовала до 1917 года.</p>
+            </div>
+        </section>
+
+        <section class="achievements-section">
+            <h3 class="section-title">Основные достижения</h3>
+            <ul class="achievements-list">
+                <li>Всеобщая воинская повинность (1874) — введение системы всеобщей военной службы с сокращенными сроками и льготами для образованных граждан</li>
+                <li>Военные округа (1864) — создание 15 военных округов для эффективного управления армией</li>
+                <li>Перевооружение армии нарезным оружием и развитие военной инфраструктуры (1860-1870-е)</li>
+            </ul>
+        </section>
+
+        <section class="related-reformers">
+            <h3 class="section-title">Связанные исторические личности</h3>
+            <div class="related-reformers-grid">
+                <!-- Ссылки на страницы связанных реформаторов из военной ветки -->
+                <a href="reformer_pavel1.html" class="related-reformer-card">
+                    <img src="images/reformer_pavel1.jpg" alt="Павел I" class="related-reformer-img">
+                    <div class="related-reformer-info">
+                        <h3 class="related-reformer-name">Павел I</h3>
+                        <p class="related-reformer-years">1754-1801</p>
+                    </div>
+                </a>
+                <a href="reformer_frunze.html" class="related-reformer-card">
+                    <img src="images/reformer_frunze.jpg" alt="Михаил Фрунзе" class="related-reformer-img">
+                    <div class="related-reformer-info">
+                        <h3 class="related-reformer-name">Михаил Фрунзе</h3>
+                        <p class="related-reformer-years">1885-1925</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2023 История реформаторов России. Все права защищены.</p>
+            <p>Проект создан в учебных целях</p>
+        </div>
+    </footer>
+
+    <!-- Подключаем JS в конце -->
+    <script src="reformer.js"></script> 
+</body>
+</html> 
